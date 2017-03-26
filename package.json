@@ -1,0 +1,42 @@
+{
+  "name": "entrance-task-1",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "index.html",
+  "dependencies": {
+    "normalize.css": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "css-loader": "^0.27.3",
+    "css-mqpacker": "^5.0.1",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "html-webpack-plugin": "^2.28.0",
+    "postcss-cssnext": "^2.10.0",
+    "postcss-loader": "^1.3.3",
+    "precss": "^1.4.0",
+    "pug": "^2.0.0-beta11",
+    "pug-loader": "^2.3.0",
+    "style-loader": "^0.16.0",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2",
+    "webpack-merge": "^4.1.0",
+    "webpack-svgstore-plugin": "^4.0.0"
+  },
+  "scripts": {
+    "dev": "rm -rf ./dist && NODE_ENV=development webpack-dev-server",
+    "build": "rm -rf ./dist && NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsavitskiy/webpack-boilerplate.git"
+  },
+  "author": "Vladimir Savitskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vsavitskiy/webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/vsavitskiy/webpack-boilerplate#readme"
+}
